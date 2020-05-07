@@ -13,26 +13,9 @@ This repository contains Sceneform sample projects.
 
 To get started with the Sceneform SDK, follow the ARCore [Android Quickstart](//developers.google.com/ar/develop/java/quickstart) guide.
 
+## Project-Android-Camera Notes
 
-## API Reference
+May 6th 2020:  
+Emulators need Google play services update to run app.  Get the APK, Google_Play_Services_for_AR_1.16_x86_for_emulator.apk, from https://github.com/google-ar/arcore-android-sdk/releases and drag and drop the APK on to the running emulated phone to update the Google play services
+Next steps are to introduce a text string in to the emulated environment and to capture the text string for processing:  https://developers.google.com/vision/android/getting-started
 
-See the [Sceneform API Reference](//developers.google.com/sceneform/reference/com/google/ar/sceneform/package-summary).
-
-
-## Release Notes
-
-The SDK release notes are available on the [releases](//github.com/google-ar/sceneform-android-sdk/releases) page.
-
-
-## Terms & Conditions
-
-By downloading the Sceneform SDK for Android, you agree that the [Google APIs Terms of Service](//developers.google.com/terms/) governs your use thereof.
-
-
-## User privacy requirements
-
-You must disclose the use of Google Play Services for AR (ARCore) and how it
-collects and processes data, prominently in your application, easily accessible
-to users. You can do this by adding the following text on your main menu or
-notice screen: "This application runs on [Google Play Services for AR](//play.google.com/store/apps/details?id=com.google.ar.core) (ARCore),
-which is provided by Google LLC and governed by the [Google Privacy Policy](//policies.google.com/privacy)".
